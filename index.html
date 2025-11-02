@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU AI Act &amp; GDPR: Complete Compliance Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <h1>EU AI Act Guide</h1>
+            </div>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#why-matters">Why It Matters</a></li>
+                    <li><a href="#risk-levels">Risk Levels</a></li>
+                    <li><a href="#sectors">Sectors</a></li>
+                    <li><a href="#gdpr">GDPR Connection</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#checker">Compliance Tool</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <line x1="12" y1="1" x2="12" y2="3"/>
+                        <line x1="12" y1="21" x2="12" y2="23"/>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line x1="1" y1="12" x2="3" y2="12"/>
+                        <line x1="21" y1="12" x2="23" y2="12"/>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Quick Actions Sidebar -->
+    <div class="quick-actions">
+        <a href="#checker" class="quick-action-btn" title="Compliance Checker">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 11l3 3L22 4"/>
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+            </svg>
+        </a>
+        <button class="quick-action-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Back to Top">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="19" x2="12" y2="5"/>
+                <polyline points="5 12 12 5 19 12"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">EU AI Act &amp; GDPR</h1>
+                <h2 class="hero-subtitle">Complete Compliance Guide for Startups &amp; SMEs</h2>
+                <p class="hero-description">Navigate Europe's AI regulation landscape with confidence. Understand requirements, deadlines, and how AI Act intersects with GDPR.</p>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-value">2024</div>
+                        <div class="stat-label">Adopted</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">2025-2027</div>
+                        <div class="stat-label">Phased Implementation</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">27 States</div>
+                        <div class="stat-label">EU Coverage</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">€35M</div>
+                        <div class="stat-label">Max Fine</div>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#checker" class="btn btn-primary">Start Compliance Check</a>
+                    <a href="#risk-levels" class="btn btn-secondary">Explore Framework</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why This Matters -->
+    <section class="section" id="why-matters">
+        <div class="container">
+            <h2 class="section-title">Why This Matters for Your Business</h2>
+            <div class="content-grid">
+                <div class="info-card">
+                    <h3>Market Access</h3>
+                    <p>The EU AI market is projected to reach <strong>€200 billion by 2030</strong>. Compliance is mandatory for selling AI products or services in the EU, regardless of where your company is based.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Build Trust</h3>
+                    <p>Compliance demonstrates commitment to ethical AI, safety, and fundamental rights. This builds customer trust and competitive advantage in an increasingly regulated market.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Avoid Penalties</h3>
+                    <p>Non-compliance can result in fines up to <strong>€35M or 7% of global revenue</strong>. Early preparation is significantly cheaper than remediation or penalties.</p>
+                </div>
+                <div class="info-card">
+                    <h3>SME Advantages</h3>
+                    <p>The AI Act includes special provisions for startups: regulatory sandboxes, reduced fees, simplified documentation, and priority support under Article 55.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Four Risk Levels -->
+    <section class="section section-alt" id="risk-levels">
+        <div class="container">
+            <h2 class="section-title">Four Risk Levels Framework</h2>
+            <p class="section-intro">The EU AI Act uses a risk-based approach, categorizing AI systems into four levels with different regulatory requirements.</p>
+            
+            <div class="risk-levels-container">
+                <div class="risk-level-card" data-risk="unacceptable">
+                    <div class="risk-header" onclick="toggleRiskLevel(this)">
+                        <div class="risk-icon-wrapper" style="background: #DC2626;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="15" y1="9" x2="9" y2="15"/>
+                                <line x1="9" y1="9" x2="15" y2="15"/>
+                            </svg>
+                        </div>
+                        <div class="risk-info">
+                            <h3>Unacceptable Risk</h3>
+                            <span class="risk-badge" style="background: #DC2626;">BANNED</span>
+                        </div>
+                        <svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="risk-content">
+                        <p class="risk-description">Prohibited since February 2, 2025. These AI practices pose unacceptable threats to fundamental rights and safety.</p>
+                        <div class="risk-details">
+                            <h4>Examples (PROHIBITED):</h4>
+                            <ul class="risk-examples">
+                                <li>Social scoring systems</li>
+                                <li>Subliminal manipulation techniques</li>
+                                <li>Mass facial recognition scraping</li>
+                                <li>Emotion recognition in workplace/education</li>
+                                <li>Biometric categorization of sensitive attributes</li>
+                                <li>Criminal profiling by personality alone</li>
+                                <li>Exploitation of vulnerabilities</li>
+                                <li>Real-time public biometric ID (limited exceptions)</li>
+                            </ul>
+                            <h4>Requirements:</h4>
+                            <div class="alert alert-danger">Complete prohibition - cannot be deployed</div>
+                            <div class="risk-meta">
+                                <div><strong>Deadline:</strong> Already in effect (Feb 2, 2025)</div>
+                                <div><strong>Penalty:</strong> €35M or 7% of global revenue</div>
+                                <div><strong>SME Impact:</strong> NO DEVELOPMENT ALLOWED. Severe penalties regardless of company size.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="risk-level-card" data-risk="high">
+                    <div class="risk-header" onclick="toggleRiskLevel(this)">
+                        <div class="risk-icon-wrapper" style="background: #F59E0B;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                                <line x1="12" y1="9" x2="12" y2="13"/>
+                                <line x1="12" y1="17" x2="12.01" y2="17"/>
+                            </svg>
+                        </div>
+                        <div class="risk-info">
+                            <h3>High-Risk AI Systems</h3>
+                            <span class="risk-badge" style="background: #F59E0B;">HIGHLY REGULATED</span>
+                        </div>
+                        <svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="risk-content">
+                        <p class="risk-description">Strict requirements before market deployment. Allowed but heavily regulated.</p>
+                        <div class="risk-details">
+                            <h4>Examples (ALLOWED with requirements):</h4>
+                            <ul class="risk-examples">
+                                <li>Medical device diagnostics</li>
+                                <li>Credit scoring and lending decisions</li>
+                                <li>Recruitment and HR AI systems</li>
+                                <li>Educational assessment and admission</li>
+                                <li>Law enforcement risk assessment</li>
+                                <li>Border control and migration systems</li>
+                                <li>Critical infrastructure control</li>
+                                <li>Insurance underwriting</li>
+                                <li>Emergency service dispatch</li>
+                                <li>Legal decision support systems</li>
+                            </ul>
+                            <h4>Compliance Requirements:</h4>
+                            <ul class="requirements-list">
+                                <li>Risk management systems</li>
+                                <li>High-quality data governance</li>
+                                <li>Technical documentation</li>
+                                <li>Human oversight mechanisms</li>
+                                <li>Transparency and explainability</li>
+                                <li>Robustness testing</li>
+                                <li>Cybersecurity protections</li>
+                                <li>Pre-market conformity assessment</li>
+                                <li>Registration with authorities</li>
+                                <li>Continuous monitoring</li>
+                            </ul>
+                            <div class="risk-meta">
+                                <div><strong>Deadline:</strong> August 2, 2026</div>
+                                <div><strong>Penalty:</strong> €15M or 3% of global revenue</div>
+                                <div><strong>SME Impact:</strong> SME-FRIENDLY PROVISIONS: Regulatory sandboxes, reduced fees, simplified documentation, priority support.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="risk-level-card" data-risk="limited">
+                    <div class="risk-header" onclick="toggleRiskLevel(this)">
+                        <div class="risk-icon-wrapper" style="background: #EAB308;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="16" x2="12" y2="12"/>
+                                <line x1="12" y1="8" x2="12.01" y2="8"/>
+                            </svg>
+                        </div>
+                        <div class="risk-info">
+                            <h3>Limited-Risk AI</h3>
+                            <span class="risk-badge" style="background: #EAB308;">TRANSPARENCY REQUIRED</span>
+                        </div>
+                        <svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="risk-content">
+                        <p class="risk-description">Basic transparency obligations. Most generative AI and chatbots fall here.</p>
+                        <div class="risk-details">
+                            <h4>Examples (ALLOWED with transparency):</h4>
+                            <ul class="risk-examples">
+                                <li>Chatbots (ChatGPT, Claude)</li>
+                                <li>Content generators (text, image, video)</li>
+                                <li>AI deepfakes and synthetic media</li>
+                                <li>Facial filters and recognition apps</li>
+                                <li>Recommendation systems</li>
+                                <li>Customer service bots</li>
+                                <li>General-purpose AI models</li>
+                            </ul>
+                            <h4>Compliance Requirements:</h4>
+                            <ul class="requirements-list">
+                                <li>User disclosure (inform users it's AI)</li>
+                                <li>Synthetic content labeling</li>
+                                <li>Copyright compliance</li>
+                                <li>Training data transparency (GPAI)</li>
+                                <li>Model card documentation</li>
+                                <li>Cybersecurity measures</li>
+                            </ul>
+                            <div class="risk-meta">
+                                <div><strong>Deadline:</strong> August 2, 2025 (already in effect)</div>
+                                <div><strong>Penalty:</strong> €7.5M or 1% of global revenue</div>
+                                <div><strong>SME Impact:</strong> STARTUP-FRIENDLY: Low compliance burden. Straightforward implementation, fast market entry.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="risk-level-card" data-risk="minimal">
+                    <div class="risk-header" onclick="toggleRiskLevel(this)">
+                        <div class="risk-icon-wrapper" style="background: #10B981;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                        </div>
+                        <div class="risk-info">
+                            <h3>Minimal/No Risk</h3>
+                            <span class="risk-badge" style="background: #10B981;">MOSTLY UNREGULATED</span>
+                        </div>
+                        <svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="risk-content">
+                        <p class="risk-description">No specific regulatory requirements. Build and deploy freely.</p>
+                        <div class="risk-details">
+                            <h4>Examples (UNREGULATED):</h4>
+                            <ul class="risk-examples">
+                                <li>Spam filters</li>
+                                <li>Video game AI</li>
+                                <li>Basic recommendation engines</li>
+                                <li>Simple automation tools</li>
+                                <li>Data analysis systems</li>
+                                <li>Pattern recognition without decisions</li>
+                                <li>Predictive maintenance</li>
+                                <li>Document processing and OCR</li>
+                            </ul>
+                            <h4>Recommended Best Practices:</h4>
+                            <ul class="requirements-list">
+                                <li>General best practices (recommended)</li>
+                                <li>Optional: human oversight</li>
+                                <li>Optional: documentation</li>
+                            </ul>
+                            <div class="risk-meta">
+                                <div><strong>Deadline:</strong> N/A</div>
+                                <div><strong>Penalty:</strong> None</div>
+                                <div><strong>SME Impact:</strong> MOST STARTUP-FRIENDLY: Zero compliance burden. Focus on innovation.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sector Deep Dives -->
+    <section class="section" id="sectors">
+        <div class="container">
+            <h2 class="section-title">Sector Deep-Dives</h2>
+            <p class="section-intro">Understand how the AI Act applies to specific industries and use cases.</p>
+            
+            <div class="tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" onclick="switchTab('healthcare')">Healthcare</button>
+                    <button class="tab-button" onclick="switchTab('finance')">Finance</button>
+                    <button class="tab-button" onclick="switchTab('employment')">Employment</button>
+                    <button class="tab-button" onclick="switchTab('education')">Education</button>
+                </div>
+
+                <div class="tab-content active" id="tab-healthcare">
+                    <h3>Healthcare AI Systems</h3>
+                    <div class="sector-badge" style="background: #F59E0B;">High-Risk (NOT Prohibited)</div>
+                    <p class="sector-intro">Medical AI systems are heavily regulated but not banned. They offer tremendous potential for improving patient outcomes while requiring strict safety measures.</p>
+                    
+                    <div class="sector-grid">
+                        <div class="sector-section">
+                            <h4>Classification Criteria</h4>
+                            <ul>
+                                <li>Medical devices (Class IIa or higher) under MDR/IVDR</li>
+                                <li>AI-assisted diagnostics and treatment recommendations</li>
+                                <li>Emergency triage and call evaluation</li>
+                                <li>Health service eligibility determination</li>
+                                <li>Emotion recognition for healthcare decisions</li>
+                            </ul>
+                        </div>
+                        <div class="sector-section">
+                            <h4>Key Requirements</h4>
+                            <ul>
+                                <li>Risk management and mitigation</li>
+                                <li>High-quality representative data</li>
+                                <li>Bias detection and testing</li>
+                                <li>Human oversight capabilities</li>
+                                <li>Accuracy benchmarks</li>
+                                <li>Transparency to deployers</li>
+                                <li>Technical documentation</li>
+                                <li>Conformity assessment</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="alert alert-info">
+                        <strong>Exemption:</strong> Narrow procedural tasks (e.g., ICD-10 coding) without replacing human judgment are exempt.
+                    </div>
+                    
+                    <div class="deadline-info">
+                        <strong>Compliance Deadline:</strong> August 2, 2027 (medical devices get extended timeline)
+                    </div>
+                </div>
+
+                <div class="tab-content" id="tab-finance">
+                    <h3>Financial Services AI</h3>
+                    <div class="sector-badge" style="background: #F59E0B;">High-Risk (NOT Prohibited)</div>
+                    <p class="sector-intro">AI in finance must balance innovation with consumer protection, fairness, and transparency.</p>
+                    
+                    <div class="sector-grid">
+                        <div class="sector-section">
+                            <h4>Classification Criteria</h4>
+                            <ul>
+                                <li>Creditworthiness assessment systems</li>
+                                <li>Loan approval and denial decisions</li>
+                                <li>Insurance eligibility and pricing</li>
+                                <li>Financial risk evaluation</li>
+                                <li>Automated underwriting</li>
+                            </ul>
+                        </div>
+                        <div class="sector-section">
+                            <h4>Key Requirements</h4>
+                            <ul>
+                                <li>Risk management throughout lifecycle</li>
+                                <li>Data quality and bias prevention</li>
+                                <li>Transparency and explainability to consumers</li>
+                                <li>Human oversight and intervention capability</li>
+                                <li>Robustness and accuracy testing</li>
+                                <li>Complete audit trails</li>
+                                <li>Cybersecurity protections</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="alert alert-warning">
+                        <strong>Dual Compliance:</strong> Must comply with both AI Act AND GDPR automated decision-making rules (Article 22)
+                    </div>
+                    
+                    <div class="deadline-info">
+                        <strong>Compliance Deadline:</strong> August 2, 2026
+                    </div>
+                </div>
+
+                <div class="tab-content" id="tab-employment">
+                    <h3>Employment &amp; HR AI</h3>
+                    <div class="sector-badge" style="background: #F59E0B;">High-Risk (NOT Prohibited)</div>
+                    <p class="sector-intro">AI recruitment and HR systems must ensure fairness, non-discrimination, and transparency in hiring and employment decisions.</p>
+                    
+                    <div class="sector-grid">
+                        <div class="sector-section">
+                            <h4>High-Risk Applications</h4>
+                            <ul>
+                                <li>Automated resume screening</li>
+                                <li>Candidate ranking and shortlisting</li>
+                                <li>Interview analysis (video, speech)</li>
+                                <li>Performance evaluation systems</li>
+                                <li>Promotion and compensation decisions</li>
+                                <li>Workforce monitoring and surveillance</li>
+                            </ul>
+                        </div>
+                        <div class="sector-section">
+                            <h4>Compliance Focus</h4>
+                            <ul>
+                                <li>Anti-discrimination testing</li>
+                                <li>Bias detection across protected attributes</li>
+                                <li>Explainability to candidates</li>
+                                <li>Human review of decisions</li>
+                                <li>Data quality and representativeness</li>
+                                <li>Transparency about AI use</li>
+                                <li>Right to contest decisions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="alert alert-warning">
+                        <strong>Worker Rights:</strong> Employees and candidates have rights to explanation and human review under both AI Act and GDPR.
+                    </div>
+                    
+                    <div class="deadline-info">
+                        <strong>Compliance Deadline:</strong> August 2, 2026
+                    </div>
+                </div>
+
+                <div class="tab-content" id="tab-education">
+                    <h3>Education AI Systems</h3>
+                    <div class="sector-badge" style="background: #F59E0B;">High-Risk (NOT Prohibited)</div>
+                    <p class="sector-intro">Educational AI must protect students' rights while enabling personalized learning and fair assessment.</p>
+                    
+                    <div class="sector-grid">
+                        <div class="sector-section">
+                            <h4>High-Risk Applications</h4>
+                            <ul>
+                                <li>Automated exam grading and evaluation</li>
+                                <li>Student admission decisions</li>
+                                <li>Learning path recommendations</li>
+                                <li>Performance prediction systems</li>
+                                <li>Plagiarism detection (if affects grades)</li>
+                                <li>Student monitoring systems</li>
+                            </ul>
+                        </div>
+                        <div class="sector-section">
+                            <h4>Special Considerations</h4>
+                            <ul>
+                                <li>Protection of minors</li>
+                                <li>Parental rights and transparency</li>
+                                <li>Non-discrimination in access</li>
+                                <li>Data minimization for student data</li>
+                                <li>Educational value validation</li>
+                                <li>Human educator oversight</li>
+                                <li>Accuracy and fairness testing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="alert alert-danger">
+                        <strong>Prohibited:</strong> Emotion recognition in educational settings is BANNED under the AI Act.
+                    </div>
+                    
+                    <div class="deadline-info">
+                        <strong>Compliance Deadline:</strong> August 2, 2026
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GDPR Connection -->
+    <section class="section section-alt" id="gdpr">
+        <div class="container">
+            <h2 class="section-title">GDPR &amp; AI Act: How They Connect</h2>
+            <p class="section-intro">Understanding the relationship between Europe's two major regulations affecting AI systems.</p>
+            
+            <div class="gdpr-intro">
+                <div class="info-card">
+                    <h3>Dual Applicability</h3>
+                    <p>If your AI system processes personal data (which most do), <strong>both GDPR and AI Act apply simultaneously</strong>. They regulate different aspects: GDPR focuses on privacy and data protection, while the AI Act focuses on safety and fundamental rights.</p>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Overlapping Areas: Detailed Comparison</h3>
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Area</th>
+                            <th>GDPR Requirement</th>
+                            <th>AI Act Requirement</th>
+                            <th>How They Overlap</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Scope &amp; Territory</strong></td>
+                            <td>Applies to processing of personal data in EU or targeting EU residents</td>
+                            <td>Applies to AI systems placed on EU market or affecting EU residents</td>
+                            <td>Both have extraterritorial reach beyond EU borders</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Data Governance</strong></td>
+                            <td>Data quality, accuracy, minimization, purpose limitation</td>
+                            <td>High-quality training data, bias detection, representative datasets</td>
+                            <td>Both require high data quality and governance throughout lifecycle</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Transparency</strong></td>
+                            <td>Information about data processing to data subjects</td>
+                            <td>Information about AI system capabilities, limitations, and decisions</td>
+                            <td>Both require clear communication to affected individuals</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Accountability</strong></td>
+                            <td>Documentation of processing activities, DPIAs, records</td>
+                            <td>Technical documentation, risk assessments, conformity assessments</td>
+                            <td>Both require comprehensive documentation and proof of compliance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Risk Assessments</strong></td>
+                            <td>Data Protection Impact Assessment (DPIA) for high-risk processing</td>
+                            <td>Fundamental Rights Impact Assessment (FRIA) for high-risk AI</td>
+                            <td>Similar assessment frameworks - can be combined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Human Oversight</strong></td>
+                            <td>Article 22 - right not to be subject to solely automated decisions</td>
+                            <td>Human oversight requirements for high-risk AI systems</td>
+                            <td>Both require meaningful human involvement in critical decisions</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="subsection-title">Key Differences</h3>
+            <div class="differences-grid">
+                <div class="difference-card">
+                    <h4>Primary Focus</h4>
+                    <div class="diff-comparison">
+                        <div class="diff-item">
+                            <span class="diff-label">GDPR:</span>
+                            <span>Privacy and personal data protection</span>
+                        </div>
+                        <div class="diff-item">
+                            <span class="diff-label">AI Act:</span>
+                            <span>Product safety and fundamental rights protection</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="difference-card">
+                    <h4>Regulatory Approach</h4>
+                    <div class="diff-comparison">
+                        <div class="diff-item">
+                            <span class="diff-label">GDPR:</span>
+                            <span>Applies to all personal data processing equally (with some risk scaling)</span>
+                        </div>
+                        <div class="diff-item">
+                            <span class="diff-label">AI Act:</span>
+                            <span>Risk-based categorization (4 levels) with differentiated requirements</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="difference-card">
+                    <h4>Key Actors</h4>
+                    <div class="diff-comparison">
+                        <div class="diff-item">
+                            <span class="diff-label">GDPR:</span>
+                            <span>Controllers and Processors</span>
+                        </div>
+                        <div class="diff-item">
+                            <span class="diff-label">AI Act:</span>
+                            <span>Providers and Deployers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="difference-card">
+                    <h4>When It Applies</h4>
+                    <div class="diff-comparison">
+                        <div class="diff-item">
+                            <span class="diff-label">GDPR:</span>
+                            <span>Only when personal data is processed</span>
+                        </div>
+                        <div class="diff-item">
+                            <span class="diff-label">AI Act:</span>
+                            <span>Applies to AI systems regardless of data type</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Synergies for Startups</h3>
+            <div class="synergies-list">
+                <div class="synergy-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    <span>Existing GDPR compliance provides foundation for AI Act requirements</span>
+                </div>
+                <div class="synergy-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    <span>DPIAs can be extended to cover AI Act FRIA requirements</span>
+                </div>
+                <div class="synergy-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    <span>Data governance frameworks satisfy both regulations</span>
+                </div>
+                <div class="synergy-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    <span>Privacy by design aligns with AI Act's transparency and robustness</span>
+                </div>
+                <div class="synergy-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    <span>Documentation practices overlap significantly</span>
+                </div>
+                <div class="synergy-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    <span>Human oversight mechanisms serve dual purpose</span>
+                </div>
+            </div>
+
+            <div class="practical-guide">
+                <h3>If You're GDPR Compliant, Here's What More You Need:</h3>
+                <div class="guide-steps">
+                    <div class="guide-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Classify Your AI System</h4>
+                            <p>Determine risk level (unacceptable, high, limited, minimal) - this is AI Act specific</p>
+                        </div>
+                    </div>
+                    <div class="guide-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Technical Documentation</h4>
+                            <p>Create AI-specific technical docs: model architecture, training process, validation results</p>
+                        </div>
+                    </div>
+                    <div class="guide-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Risk Management System</h4>
+                            <p>Implement AI-specific risk management (beyond GDPR's DPIA)</p>
+                        </div>
+                    </div>
+                    <div class="guide-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Conformity Assessment</h4>
+                            <p>For high-risk AI: third-party or self-assessment before market entry</p>
+                        </div>
+                    </div>
+                    <div class="guide-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h4>Registration</h4>
+                            <p>Register high-risk systems with national authorities (EU database)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="section" id="timeline">
+        <div class="container">
+            <h2 class="section-title">Implementation Timeline &amp; Roadmap</h2>
+            <p class="section-intro">Key dates and milestones for AI Act compliance.</p>
+            
+            <div class="timeline-container">
+                <div class="timeline-item completed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">February 2, 2025</div>
+                        <h3>Prohibited Practices Ban</h3>
+                        <div class="timeline-status">COMPLETED</div>
+                        <p>Unacceptable risk AI practices banned. AI literacy obligations began.</p>
+                        <ul>
+                            <li>Verify no prohibited AI practices</li>
+                            <li>Eliminate social scoring, manipulation systems</li>
+                            <li>Begin AI literacy training</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item completed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">August 2, 2025</div>
+                        <h3>GPAI &amp; Enforcement Active</h3>
+                        <div class="timeline-status">COMPLETED</div>
+                        <p>General-Purpose AI obligations apply. Enforcement powers activated.</p>
+                        <ul>
+                            <li>GPAI model providers: document and disclose training data</li>
+                            <li>Implement transparency for chatbots/content generators</li>
+                            <li>Label synthetic content</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item upcoming">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">August 2, 2026</div>
+                        <h3>High-Risk AI Deadline</h3>
+                        <div class="timeline-status">UPCOMING</div>
+                        <p>Main deadline - High-risk AI systems must fully comply</p>
+                        <ul>
+                            <li>Complete risk assessments and documentation</li>
+                            <li>Conduct conformity assessments</li>
+                            <li>Register high-risk systems with authorities</li>
+                            <li>Implement human oversight mechanisms</li>
+                            <li>Begin continuous monitoring</li>
+                        </ul>
+                        <div class="countdown" id="countdown-2026"></div>
+                    </div>
+                </div>
+
+                <div class="timeline-item future">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">August 2, 2027</div>
+                        <h3>Medical Devices Extension</h3>
+                        <div class="timeline-status">FUTURE</div>
+                        <p>Extended deadline for medical devices and safety-critical embedded AI</p>
+                        <ul>
+                            <li>Medical device AI: full compliance with MDR/IVDR + AI Act</li>
+                            <li>Notified Body assessments completed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SME Support -->
+    <section class="section section-alt" id="sme-support">
+        <div class="container">
+            <h2 class="section-title">SME Support &amp; Resources</h2>
+            <p class="section-intro">The AI Act includes special provisions (Article 55) to help small businesses comply.</p>
+            
+            <div class="support-grid">
+                <div class="support-card">
+                    <h3>Regulatory Sandboxes</h3>
+                    <p><strong>What they are:</strong> Controlled environments where startups can test AI systems under regulatory supervision with reduced liability.</p>
+                    <p><strong>Benefits:</strong></p>
+                    <ul>
+                        <li>Test innovations before full market launch</li>
+                        <li>Get guidance from regulators</li>
+                        <li>Reduce compliance costs</li>
+                        <li>Priority access for SMEs</li>
+                    </ul>
+                    <p><strong>How to apply:</strong> Contact your national AI authority for sandbox programs in your country.</p>
+                </div>
+
+                <div class="support-card">
+                    <h3>Financial Support</h3>
+                    <p><strong>Reduced Fees:</strong> SMEs pay lower fees for conformity assessments and certifications.</p>
+                    <p><strong>Grants &amp; Funding:</strong></p>
+                    <ul>
+                        <li>Horizon Europe AI funding programs</li>
+                        <li>National innovation grants</li>
+                        <li>Digital Europe Programme</li>
+                        <li>Regional development funds</li>
+                    </ul>
+                    <p><strong>Typical savings:</strong> 50-70% reduction in assessment costs for qualifying SMEs.</p>
+                </div>
+
+                <div class="support-card">
+                    <h3>Knowledge Resources</h3>
+                    <p><strong>Free guidance:</strong></p>
+                    <ul>
+                        <li>EU AI Office guidance documents</li>
+                        <li>Implementation handbooks</li>
+                        <li>Video tutorials and webinars</li>
+                        <li>Sector-specific guides</li>
+                    </ul>
+                    <p><strong>Training programs:</strong></p>
+                    <ul>
+                        <li>Free online courses on AI Act compliance</li>
+                        <li>National digital skills programs</li>
+                        <li>Industry association workshops</li>
+                    </ul>
+                </div>
+
+                <div class="support-card">
+                    <h3>Templates &amp; Tools</h3>
+                    <p><strong>Available resources:</strong></p>
+                    <ul>
+                        <li>Documentation templates (technical docs, risk assessments)</li>
+                        <li>Compliance checklists by risk level</li>
+                        <li>Self-assessment frameworks</li>
+                        <li>Model cards and data sheets</li>
+                        <li>GDPR-AI Act integration guides</li>
+                    </ul>
+                    <p><strong>Official tools:</strong></p>
+                    <ul>
+                        <li>EU AI Act Compliance Checker</li>
+                        <li>Risk classification wizard</li>
+                        <li>FRIA template generator</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compliance Checker -->
+    <section class="section" id="checker">
+        <div class="container">
+            <h2 class="section-title">Interactive Compliance Checker</h2>
+            <p class="section-intro">Answer a few questions to determine your AI system's risk classification and compliance requirements.</p>
+            
+            <div class="checker-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText">Question 1 of 4</div>
+
+                <div class="question-container" id="questionContainer">
+                    <!-- Questions will be inserted by JavaScript -->
+                </div>
+
+                <div class="result-container" id="resultContainer" style="display: none;">
+                    <!-- Results will be inserted by JavaScript -->
+                </div>
+
+                <div class="checker-actions">
+                    <button class="btn btn-secondary" id="restartBtn" onclick="restartChecker()" style="display: none;">Start Over</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Do the EU AI Act and GDPR both apply to my AI system?</h3>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>If your AI system processes personal data, both regulations apply simultaneously. The AI Act regulates the AI system itself (safety, fairness, transparency), while GDPR regulates how personal data is processed. Most AI systems process personal data at some point, so dual compliance is common.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Can I leverage existing GDPR compliance for the AI Act?</h3>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Many requirements overlap. Your DPIAs can extend to cover AI Act fundamental rights assessments, data governance practices satisfy both regulations, and documentation frameworks align significantly. Privacy by design principles support AI Act transparency and robustness requirements.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>What's the difference between a DPIA (GDPR) and FRIA (AI Act)?</h3>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A Data Protection Impact Assessment (DPIA) under GDPR focuses on privacy risks from processing personal data. A Fundamental Rights Impact Assessment (FRIA) under the AI Act evaluates broader impacts on rights like non-discrimination, human dignity, and fairness. They can be combined into one assessment.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Are there special provisions for startups and SMEs?</h3>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! The AI Act includes Article 55 provisions: priority access to regulatory sandboxes, reduced conformity assessment fees, simplified documentation, tailored guidance, and support programs. Fines are also proportional to company size.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>What if my AI system doesn't process personal data - does GDPR still apply?</h3>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, GDPR only applies when personal data is processed. However, the AI Act still applies based on your system's risk level. Even non-personal data AI systems must comply with AI Act requirements.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>When should I start preparing for compliance?</h3>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Now! If you have high-risk AI, you need 6-12 months for compliance before the August 2026 deadline. Limited-risk AI requirements are already in effect as of August 2025. Start with classification, then begin documentation and risk assessments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section class="section" id="resources">
+        <div class="container">
+            <h2 class="section-title">Official Resources</h2>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-type">Official</div>
+                    <h3>EU AI Act Official Portal</h3>
+                    <p>European Commission's central hub for AI Act information</p>
+                    <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" class="btn btn-outline">Visit Resource</a>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-type">Official</div>
+                    <h3>Implementation Documents</h3>
+                    <p>Complete repository of guidelines, codes of practice, and standards</p>
+                    <a href="https://artificialintelligenceact.eu/implementation-documents/" target="_blank" class="btn btn-outline">Visit Resource</a>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-type">Official</div>
+                    <h3>European AI Office</h3>
+                    <p>EU-level regulator for GPAI models and enforcement coordination</p>
+                    <a href="https://digital-strategy.ec.europa.eu/en/policies/ai-office" target="_blank" class="btn btn-outline">Visit Resource</a>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-type">Guidance</div>
+                    <h3>Guidelines on Prohibited Practices</h3>
+                    <p>135-page document clarifying banned AI uses (February 2025)</p>
+                    <button class="btn btn-outline" disabled>Coming Soon</button>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-type">Guidance</div>
+                    <h3>Guidelines on AI System Definition</h3>
+                    <p>Helps determine if software qualifies as AI system (February 2025)</p>
+                    <button class="btn btn-outline" disabled>Coming Soon</button>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-type">Tool</div>
+                    <h3>EU AI Act Compliance Checker</h3>
+                    <p>Interactive tool to classify your AI system</p>
+                    <a href="https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/" target="_blank" class="btn btn-outline">Visit Tool</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#risk-levels">Risk Levels</a></li>
+                        <li><a href="#sectors">Sectors</a></li>
+                        <li><a href="#gdpr">GDPR Connection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Tools &amp; Resources</h4>
+                    <ul>
+                        <li><a href="#checker">Compliance Checker</a></li>
+                        <li><a href="#timeline">Timeline</a></li>
+                        <li><a href="#sme-support">SME Support</a></li>
+                        <li><a href="#resources">Official Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Disclaimer</h4>
+                    <p>This website provides general information about the EU AI Act and GDPR. It is not legal advice. Consult with qualified legal professionals for specific compliance guidance.</p>
+                    <p class="footer-updated">Last updated: November 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
