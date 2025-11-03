@@ -63,11 +63,10 @@ A comprehensive, interactive guide to understanding the EU AI Act and its inters
 
 ## 📦 Self-Hosting Instructions
 
-This is a static website that can be hosted on any web server. Follow these steps to host it yourself:
+This is a static website that can be easily hosted using a simple web server. Follow these steps to host it yourself:
 
-### Option 1: Using a Local Web Server
+### Using Python HTTP Server
 
-#### Python HTTP Server
 ```bash
 # Navigate to the project directory
 cd /path/to/eu-ai-act
@@ -75,106 +74,27 @@ cd /path/to/eu-ai-act
 # Python 3
 python3 -m http.server 8000
 
-# Python 2
-python -m SimpleHTTPServer 8000
+# Or if python3 is your default
+python -m http.server 8000
 ```
-Visit `http://localhost:8000` in your browser
 
-#### Node.js HTTP Server
+Then visit `http://localhost:8000` in your browser
+
+### Using Node.js HTTP Server
+
 ```bash
+# Navigate to the project directory
+cd /path/to/eu-ai-act
+
 # Using npx (no installation required)
 npx http-server -p 8000
 
-# Or install globally
+# Or install globally first
 npm install -g http-server
 http-server -p 8000
 ```
 
-#### PHP Built-in Server
-```bash
-php -S localhost:8000
-```
-
-### Option 2: Using Nginx
-
-1. Copy the project files to your web server:
-```bash
-sudo cp -r /path/to/eu-ai-act /var/www/eu-ai-act
-```
-
-2. Create or edit Nginx configuration:
-```nginx
-server {
-    listen 80;
-    server_name your-domain.com;
-    root /var/www/eu-ai-act;
-    index index.html;
-
-    location / {
-        try_files $uri $uri/ =404;
-    }
-}
-```
-
-3. Restart Nginx:
-```bash
-sudo systemctl restart nginx
-```
-
-### Option 3: Using Apache
-
-1. Copy the project files to your web server:
-```bash
-sudo cp -r /path/to/eu-ai-act /var/www/html/eu-ai-act
-```
-
-2. Enable mod_rewrite (if needed):
-```bash
-sudo a2enmod rewrite
-sudo systemctl restart apache2
-```
-
-3. Ensure `.htaccess` is configured for clean URLs (optional)
-
-### Option 4: Using Docker
-
-Create a `Dockerfile`:
-```dockerfile
-FROM nginx:alpine
-COPY . /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
-```
-
-Build and run:
-```bash
-docker build -t eu-ai-act .
-docker run -d -p 8080:80 eu-ai-act
-```
-
-### Option 5: Using Cloud Storage (S3, Cloudflare, etc.)
-
-For cloud hosting:
-
-1. **AWS S3 + CloudFront:**
-   - Upload all files to an S3 bucket
-   - Enable static website hosting
-   - Configure CloudFront for CDN
-
-2. **Cloudflare Pages:**
-   - Connect your Git repository
-   - Cloudflare will automatically build and deploy
-
-3. **Netlify/Vercel:**
-   - Drag and drop the folder or connect Git
-   - Automatic deployment and HTTPS
-
-### Requirements
-
-- Any modern web server (Nginx, Apache, Caddy, etc.)
-- No server-side processing required
-- No database needed
-- No special server configurations
+Then visit `http://localhost:8000` in your browser
 
 ### File Structure
 
@@ -186,7 +106,7 @@ eu-ai-act/
 └── README.md       # This file
 ```
 
-All files are self-contained - just copy them to your web server's document root.
+**Note:** No server-side processing, database, or special configurations needed. All files are self-contained and ready to serve.
 
 ## 📝 License
 
