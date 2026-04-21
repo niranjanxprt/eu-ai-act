@@ -52,6 +52,7 @@ A comprehensive, interactive guide to understanding the EU AI Act and its inters
 - **FAQ Section** - Answers to common questions about AI Act and GDPR
 - **Official Resource Links** - Direct links to EU AI Act documentation and tools
 - **Interactive FAQ** - Expandable FAQ items for easy navigation
+- **AI Disclosure Kit** – External tool at [disclosekit.com](https://disclosekit.com) for generating EU AI Act Article 50 disclosure text (chatbots, synthetic content, emotion/biometric, deepfakes). Free tier.
 
 ## 🛠️ Technologies
 
